@@ -5,4 +5,4 @@ export VERSION=$2
 export NAMESPACE=$3
 echo Installing $APPLICATION
 
-sudo helm install --namespace $NAMESPACE $APPLICATION ./$APPLICATION
+helm install --namespace $NAMESPACE $APPLICATION ./$APPLICATION
