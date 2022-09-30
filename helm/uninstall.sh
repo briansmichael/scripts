@@ -5,4 +5,4 @@ export VERSION=$2
 export NAMESPACE=$3
 echo Uninstalling $APPLICATION
 
-helm uninstall $APPLICATION
+helm uninstall $APPLICATION --namespace $NAMESPACE
