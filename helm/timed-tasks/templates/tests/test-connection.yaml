@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "{{ include "timed-tasks.fullname" . }}-test-connection"
+  labels:
+    {{- include "timed-tasks.labels" . | nindent 4 }}
+  annotations:
+    "helm.sh/hook": test
+spec:
+  containers:
+    - name: wget
+      image: busybox
+      command: ['wget']
+      args: ['{{ include "timed-tasks.fullname" . }}:{{ .Values.service.port }}']
+  restartPolicy: Never
