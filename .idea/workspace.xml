@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2e4cac2-507e-4f3c-b632-85702896c4a7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/helm/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/helm/install.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/lint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/helm/lint.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/list.sh" beforeDir="false" afterPath="$PROJECT_DIR$/helm/list.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/rollback.sh" beforeDir="false" afterPath="$PROJECT_DIR$/helm/rollback.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/template.sh" beforeDir="false" afterPath="$PROJECT_DIR$/helm/template.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/uninstall.sh" beforeDir="false" afterPath="$PROJECT_DIR$/helm/uninstall.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/upgrade.sh" beforeDir="false" afterPath="$PROJECT_DIR$/helm/upgrade.sh" afterDir="false" />
-    </list>
+    <list default="true" id="b2e4cac2-507e-4f3c-b632-85702896c4a7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +39,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664487094025</updated>
       <workItem from="1664487095483" duration="310000" />
-      <workItem from="1664559013356" duration="6151000" />
+      <workItem from="1664559013356" duration="6463000" />
     </task>
     <servers />
   </component>
