@@ -2,4 +2,4 @@
 
 echo Listing all installed helm charts
 
-helm ls --all
+sudo helm ls --all

@@ -5,4 +5,4 @@ export VERSION=$2
 export NAMESPACE=$3
 echo Upgrading $APPLICATION
 
-helm upgrade $APPLICATION ./$APPLICATION
+sudo helm upgrade $APPLICATION ./$APPLICATION

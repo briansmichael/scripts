@@ -5,4 +5,4 @@ export VERSION=$2
 export NAMESPACE=$3
 echo Linting $APPLICATION
 
-helm lint ./$APPLICATION
+sudo helm lint ./$APPLICATION
