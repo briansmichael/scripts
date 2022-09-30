@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2e4cac2-507e-4f3c-b632-85702896c4a7" name="Changes" comment="" />
+    <list default="true" id="b2e4cac2-507e-4f3c-b632-85702896c4a7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/push.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/push.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/run.sh" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +44,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664487094025</updated>
       <workItem from="1664487095483" duration="310000" />
-      <workItem from="1664559013356" duration="8130000" />
+      <workItem from="1664559013356" duration="9102000" />
     </task>
     <servers />
   </component>
