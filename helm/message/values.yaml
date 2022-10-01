@@ -33,16 +33,16 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: messages.starfireaviation.com
+    - host: webhook.starfireaviation.com
       paths:
         - path: /
           pathType: ImplementationSpecific
   tls:
-   - secretName: messages-tls
+   - secretName: message-tls
      hosts:
-       - messages.starfireaviation.com
+       - webhook.starfireaviation.com
 
-resources: {}
+resources:
   limits:
     cpu: 1
     memory: 1024Mi
@@ -53,7 +53,7 @@ resources: {}
 autoscaling:
   enabled: true
   minReplicas: 1
-  maxReplicas: 5
+  maxReplicas: 2
   targetCPUUtilizationPercentage: 80
   targetMemoryUtilizationPercentage: 80
 
