@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b2e4cac2-507e-4f3c-b632-85702896c4a7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helm/timed-tasks/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/timed-tasks/values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/release.sh" beforeDir="false" afterPath="$PROJECT_DIR$/release.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,17 +25,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/brianmichael/git/scripts/helm/webhook-receiver/templates&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/brianmichael/git/scripts/helm/timed-tasks",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/helm/timed-tasks" />
+      <recent name="$PROJECT_DIR$/helm/tinyurl" />
+      <recent name="$PROJECT_DIR$/helm/message" />
       <recent name="$PROJECT_DIR$/helm/webhook-receiver/templates" />
     </key>
   </component>
@@ -49,7 +54,7 @@
       <workItem from="1664559013356" duration="13536000" />
       <workItem from="1664632158481" duration="3796000" />
       <workItem from="1664645036063" duration="785000" />
-      <workItem from="1664647075514" duration="191000" />
+      <workItem from="1664647075514" duration="776000" />
     </task>
     <servers />
   </component>

@@ -30,5 +30,5 @@ yq eval '.image.tag = env(BUILD_VERSION)' -i "helm/$APPLICATION/values.yaml"
 
 # Perform helm release
 cd ~/git/scripts/helm/
-./install.sh $APPLICATION $BUILD_VERSION $NAMESPACE
-#./upgrade.sh $APPLICATION $BUILD_VERSION $NAMESPACE
+#./install.sh $APPLICATION $BUILD_VERSION $NAMESPACE
+./upgrade.sh $APPLICATION $BUILD_VERSION $NAMESPACE
