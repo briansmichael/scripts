@@ -26,11 +26,11 @@ spec:
               protocol: TCP
           livenessProbe:
             httpGet:
-              path: /
+              path: /webhooks
               port: http
           readinessProbe:
             httpGet:
-              path: /
+              path: /webhooks
               port: http
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
