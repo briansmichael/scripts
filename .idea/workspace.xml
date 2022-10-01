@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b2e4cac2-507e-4f3c-b632-85702896c4a7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/webhook-receiver/templates/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/webhook-receiver/templates/deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helm/webhook-receiver/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/webhook-receiver/values.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664487094025</updated>
       <workItem from="1664487095483" duration="310000" />
-      <workItem from="1664559013356" duration="11820000" />
+      <workItem from="1664559013356" duration="13159000" />
     </task>
     <servers />
   </component>
