@@ -6,6 +6,8 @@ set -e
 # Define script variables
 export APPLICATION=$1
 cd ~/git/$APPLICATION/
+# TODO checkout PR branch
+git pull
 export PR_NUM=$2
 export SHORT_HASH=`git rev-parse --short HEAD`
 export VERSION=`mvn org.apache.maven.plugins:maven-help-plugin:2.1.1:evaluate -Dexpression=project.version | sed -n -e '/^\[.*\]/ !{ /^[0-9]/ { p; q } }'`
@@ -14,10 +16,6 @@ export NAMESPACE=$APPLICATION-PR$PR_NUM
 
 # Write out variables for debug purposes
 echo "APPLICATION=$APPLICATION; PR_NUM=$PR_NUM; VERSION=$VERSION; NAMESPACE=$NAMESPACE; SHORT_HASH=$SHORT_HASH; BUILD_VERSION=$BUILD_VERSION"
-
-# Make sure git is up-to-date
-# TODO checkout PR branch
-git pull
 
 # Build application
 mvn clean install
