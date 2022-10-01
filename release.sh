@@ -22,7 +22,7 @@ git pull
 mvn clean install
 
 # Build docker image
-~/git/scripts/docker/build.sh $APPLICATION $BUILD_VERSION
+~/git/scripts/docker/build.sh $APPLICATION $VERSION $BUILD_VERSION
 ~/git/scripts/docker/push.sh $APPLICATION $BUILD_VERSION
 
 # Update application version in helm chart
