@@ -3,29 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b2e4cac2-507e-4f3c-b632-85702896c4a7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/groundschool/templates/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/groundschool/templates/deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/groundschool/templates/hpa.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/groundschool/templates/hpa.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/groundschool/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/groundschool/values.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/message/templates/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/message/templates/deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/message/templates/hpa.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/message/templates/hpa.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/message/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/message/values.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/timed-tasks/templates/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/timed-tasks/templates/deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/timed-tasks/templates/hpa.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/timed-tasks/templates/hpa.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/timed-tasks/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/timed-tasks/values.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/tinyurl/templates/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/tinyurl/templates/deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/tinyurl/templates/hpa.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/tinyurl/templates/hpa.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/tinyurl/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/tinyurl/values.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/trivia/templates/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/trivia/templates/deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/trivia/templates/hpa.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/trivia/templates/hpa.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/trivia/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/trivia/values.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/user/templates/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/user/templates/deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/user/templates/hpa.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/user/templates/hpa.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/user/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/user/values.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/weather/templates/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/weather/templates/deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/weather/templates/hpa.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/weather/templates/hpa.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/weather/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/weather/values.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/webhook-receiver/templates/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/webhook-receiver/templates/deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/webhook-receiver/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/webhook-receiver/values.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +47,7 @@
       <updated>1664487094025</updated>
       <workItem from="1664487095483" duration="310000" />
       <workItem from="1664559013356" duration="13536000" />
-      <workItem from="1664632158481" duration="2526000" />
+      <workItem from="1664632158481" duration="3796000" />
     </task>
     <servers />
   </component>
