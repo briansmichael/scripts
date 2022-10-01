@@ -29,6 +29,7 @@ mvn clean install
 # Update application version in helm chart
 cd ~/git/scripts
 yq eval '.appVersion = env(BUILD_VERSION)' -i "helm/$APPLICATION/Chart.yaml"
+yq eval '.image.tag = env(BUILD_VERSION)' -i "helm/$APPLICATION/values.yaml"
 
 # Perform helm release
 cd ~/git/scripts/helm/
