@@ -1,8 +1,8 @@
 #!/bin/sh
 
 export APPLICATION=$1
-export VERSION=$2
-export NAMESPACE=$3
+export NAMESPACE=$2
 echo Upgrading $APPLICATION
 
-helm upgrade $APPLICATION ./$APPLICATION --namespace $NAMESPACE
+cd ~/git/$APPLICATION
+helm upgrade $APPLICATION ./helm --namespace $NAMESPACE

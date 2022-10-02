@@ -1,8 +1,8 @@
 #!/bin/sh
 
 export APPLICATION=$1
-export VERSION=$2
-export NAMESPACE=$3
+export NAMESPACE=$2
 echo Installing $APPLICATION
 
-helm install --create-namespace --namespace $NAMESPACE $APPLICATION ./$APPLICATION
+cd ~/git/$APPLICATION
+helm install --create-namespace --namespace $NAMESPACE $APPLICATION ./helm

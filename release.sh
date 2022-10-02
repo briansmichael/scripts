@@ -24,11 +24,9 @@ mvn clean install
 ~/git/scripts/docker/push.sh $APPLICATION $BUILD_VERSION
 
 # Update application version in helm chart
-cd ~/git/scripts
-yq eval '.appVersion = env(BUILD_VERSION)' -i "helm/$APPLICATION/Chart.yaml"
-yq eval '.image.tag = env(BUILD_VERSION)' -i "helm/$APPLICATION/values.yaml"
+yq eval '.appVersion = env(BUILD_VERSION)' -i "helm/Chart.yaml"
+yq eval '.image.tag = env(BUILD_VERSION)' -i "helm/values.yaml"
 
 # Perform helm release
-cd ~/git/scripts/helm/
-#./install.sh $APPLICATION $BUILD_VERSION $NAMESPACE
-./upgrade.sh $APPLICATION $BUILD_VERSION $NAMESPACE
+#~/git/scripts/helm/install.sh $APPLICATION $NAMESPACE
+~/git/scripts/helm/upgrade.sh $APPLICATION $NAMESPACE
