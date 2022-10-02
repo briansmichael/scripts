@@ -16,6 +16,10 @@ spec:
       labels:
         {{- include "groundschool.selectorLabels" . | nindent 8 }}
     spec:
+      volumes:
+        - name: web-data
+          persistentVolumeClaim:
+            claimName: web-nfs-pvc
       containers:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
@@ -37,5 +41,8 @@ spec:
             httpGet:
               path: /health
               port: http
+          volumeMounts:
+            - mountPath: "/mnt"
+              name: web-data
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
