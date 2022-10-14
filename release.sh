@@ -5,6 +5,14 @@ set -e
 
 # Define script variables
 export APPLICATION=$1
+
+# Build common model objects
+cd ~/git/model
+git checkout main
+git pull
+mvn clean install
+
+# Build application
 cd ~/git/$APPLICATION/
 git checkout main
 git pull
