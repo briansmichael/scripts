@@ -8,12 +8,14 @@ export APPLICATION=$1
 
 # Build common model objects
 cd ~/git/model
+git reset --hard
 git checkout main
 git pull
 mvn clean install
 
 # Build application
 cd ~/git/$APPLICATION/
+git reset --hard
 git checkout main
 git pull
 export SHORT_HASH=`git rev-parse --short HEAD`
