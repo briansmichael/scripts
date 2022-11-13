@@ -7,7 +7,7 @@ set -e
 export APPLICATION=$1
 
 # Build common model objects
-cd ~/git/model
+cd ~/git/common
 git reset --hard
 git checkout main
 git pull
